@@ -5,7 +5,7 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
 
 class StringHolder extends RecyclerView.ViewHolder {
-    private TextView v_;
+    private final TextView v_;
 
     StringHolder(TextView v) {
         super(v);

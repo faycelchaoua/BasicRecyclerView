@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.Vector;
 
 public class RVAdapter extends RecyclerView.Adapter<StringHolder> {
-    private Vector<String> elements;
+    private final Vector<String> elements;
 
     RVAdapter() {
         elements = new Vector<>();
